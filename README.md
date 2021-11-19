@@ -1,7 +1,7 @@
 # canny_edge_detector_3D
 Perform Canny edge detection in 3D in python.
 
-Based on the [step-by-step implementation of the Canny edge detection](https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123) from @FienSoP, I derived a 3D version for application on 3D images. 
+Based on the [step-by-step implementation of the Canny edge detection](https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123) from @FienSoP, I derived a 3D version for application on 3D images. This is comparable with [edge3](https://nl.mathworks.com/help/images/ref/edge3.html) from the Image Processing Toolbox of Matlab. 
 
 canny_edge_detector_3D.py includes the actual edge detection.
 slicer_3D.py is a useful tool to scroll through 3D images for visualizing your results. Keep in mind that the edges go in three directions and only 2D images are displayed using the slicer.
