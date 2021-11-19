@@ -4,6 +4,8 @@
 # In[ ]:
 
 
+import matplotlib.pyplot as plt
+
 class Slicer3D:
     def __init__(self, ax, X):
         self.ax = ax
